@@ -13,7 +13,7 @@ dados = r.json()
 #Criando o Arquivo
 arquivo_json = open("answer.json", "w")
 
-#Atulizando
+#Atualizando
 json.dump(dados, arquivo_json)
 
 #Descodificando
